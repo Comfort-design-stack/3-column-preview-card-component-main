@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+.parent{
+   padding: 80px 100px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    margin: auto;
+}
+.contain.me{
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px 50px 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contain.be{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px 40px 30px;
+}
+.contain.he{
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px 40px 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    padding-top: 10px;
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 700;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 10px;
+}
+button{
+    margin-top: 60px;
+    width: 55%;
+    height: 13%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+.me{
+    color: hsl(31, 77%, 52%);
+    border-color:  hsl(31, 77%, 52%);
+}
+.be{
+    color: hsl(184, 100%, 22%);
+    border-color:  hsl(184, 100%, 22%);
+}
+.he{
+    color: hsl(179, 100%, 13%);
+    border-color: hsl(179, 100%, 13%);
+}
+@media (max-width:700px) {
+    .parent{
+        padding: 80px 100px;
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+     }
+     .contain.me{
+        background-color: hsl(31, 77%, 52%);
+        padding: 40px 50px 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .contain.he{
+        background-color: hsl(179, 100%, 13%);
+        padding: 40px 40px 30px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    button{
+        margin-top: 60px;
+        width: 90px;
+        height: 45px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .attribution{
+        padding-left: 50%;
+    }
+}
+
